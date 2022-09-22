@@ -20,10 +20,10 @@ namespace IbasAPI.Controllers
         public DailyProductionController(ILogger<DailyProductionController> logger)
         {
             _logger = logger;
-            var serviceUri = "https://ibastestgroupmodul2.table.core.windows.net/IBASProduktion2022";
-            var tableName = "IBASProduktion2022";
-            var accountName = "ibastestgroupmodul2";
-            var storageAccountKey = "cGQuHp6HLYQR2SyuS93AgHULcETK6F5XlgcY2ZjZyoFFsptyvpwuq/ryYK6HWVPr02duW+QyY7o6+AStPQcklA==";
+            var serviceUri = "https://ibastestgroup.table.core.windows.net/IBASProduktion2020";
+            var tableName = "IBASProduktion2020";
+            var accountName = "ibastestgroup";
+            var storageAccountKey = "ctgGYGcgAIuUczz5F1lkbl5njSC1AgjCaNbi+FXY/xb3EP7Pw85JKvY6twErCY+OvgJaQTmlv7daE+AStLBb8Vw==\n\nHide\n";
 
 
             tableClient = new TableClient(
